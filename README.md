@@ -4,6 +4,10 @@ A collection of specialized scripts to install and manage **OpenClaw** on Androi
 
 OpenClaw usually targets server environments, but these scripts bridge the gap for mobile hardware by fixing hardcoded paths, handling non-root service management, and applying Node-GYP workarounds for the Android NDK.
 
+## 🎥 Video Tutorial
+
+For a detailed walkthrough, check out our [[YouTube video](https://youtube.com/shorts/pWS5Mzb0YS0)]
+
 ## 📋 Prerequisites
 
 Before starting, ensure you have the following:
@@ -71,10 +75,6 @@ Use this whenever a new OpenClaw version is released.
 - **Start Service:** `sv up openclaw`
 - **View Logs:** `tail -f $PREFIX/var/log/openclaw/current`
 - **Web UI Access:** Open your browser and go to `http://localhost:18789`
-
-## 🎥 Video Tutorial
-
-For a detailed walkthrough, check out our [YouTube video](https://youtube.com/shorts/pWS5Mzb0YS0).
 
 ## 🤝 Credits
 Created by [Irtiq7](https://github.com/irtiq7) & [Clawdy](https://openclaw.ai). 🦞✨
