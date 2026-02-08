@@ -15,7 +15,7 @@ Before starting, ensure you have the following:
 To install everything automatically, open Termux and run:
 
 ```bash
-pkg install -y git && git clone https://github.com/CrimsonDevil333333/openclaw-android-setup.git ~/openclaw-android-setup && cd ~/openclaw-android-setup && chmod +x *.sh && ./setup_claw.sh
+pkg install -y git && git clone https://github.com/irtiq7/OpenClaw-Android.git ~/openclaw-android-setup && cd ~/openclaw-android-setup && chmod +x *.sh && ./setup_claw.sh
 ```
 
 ---
@@ -73,4 +73,4 @@ Use this whenever a new OpenClaw version is released.
 - **Web UI Access:** Open your browser and go to `http://localhost:18789`
 
 ## 🤝 Credits
-Created by [Usama](https://github.com/irtiq7) & [Clawdy](https://openclaw.ai). 🦞✨
+Created by [Irtiq7](https://github.com/irtiq7) & [Clawdy](https://openclaw.ai). 🦞✨
