@@ -72,5 +72,9 @@ Use this whenever a new OpenClaw version is released.
 - **View Logs:** `tail -f $PREFIX/var/log/openclaw/current`
 - **Web UI Access:** Open your browser and go to `http://localhost:18789`
 
+## 🎥 Video Tutorial
+
+For a detailed walkthrough, check out our [YouTube video](https://youtube.com/shorts/pWS5Mzb0YS0).
+
 ## 🤝 Credits
 Created by [Irtiq7](https://github.com/irtiq7) & [Clawdy](https://openclaw.ai). 🦞✨
