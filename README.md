@@ -4,8 +4,13 @@
   <img src="./openclaw-android.png" alt="OpenClaw Android Banner" width="40%">
 </p>
 
+## Summary
 
-A collection of specialized scripts to install and manage **OpenClaw** on Android devices using **Termux**.
+Over the weekend I went down a rabbit hole with OpenClaw. I wanted to see if I could turn an old Android phone into a fully capable AI‑powered IoT device for future projects. After a lot of trial, error, and caffeine, I finally documented the entire process in my GitHub repo.
+
+I’ve just released a project that lets you install OpenClaw directly on any Android device using Termux. No root. No hacks. Just clean setup. This instantly turns an old phone or tablet into a local AI assistant, an automation brain, or even a portable IoT controller.
+
+Here, I share a collection of specialized scripts to install and manage **OpenClaw** on Android devices using **Termux**.
 
 OpenClaw usually targets server environments, but these scripts bridge the gap for mobile hardware by fixing hardcoded paths, handling non-root service management, and applying NodeJS workarounds for the Android NDK.
 
