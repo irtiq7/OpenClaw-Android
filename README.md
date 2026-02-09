@@ -9,6 +9,16 @@ Over the weekend I went down a rabbit hole with OpenClaw. I wanted to see if I c
 
 I’ve just released a project that lets you install OpenClaw directly on any Android device using Termux. No root. No hacks. Just clean setup. This instantly turns an old phone or tablet into a local AI assistant, an automation brain, or even a portable IoT controller.
 
++ Run OpenClaw directly on the device. Perfect for smart home flows, voice assistants, offline AI tasks, and edge computing experiments.
+
++ GPS, camera, mic, accelerometer, battery stats, network stack. All available out of the box. Your phone becomes a sensor hub or IoT gateway without extra hardware.
+
++ OpenClaw keeps running even when the app is closed. Ideal for long‑running automations.
+
++ Turn unused phones into AI hubs, IoT controllers, automation servers, or remote monitoring nodes.
+
+If you’re into IoT, AI, automation, or edge computing, this opens up a lot of fun possibilities.
+
 Here, I share a collection of specialized scripts to install and manage **OpenClaw** on Android devices using **Termux**.
 
 OpenClaw usually targets server environments, but these scripts bridge the gap for mobile hardware by fixing hardcoded paths, handling non-root service management, and applying NodeJS workarounds for the Android NDK.
