@@ -1,8 +1,13 @@
 # OpenClaw Android Setup 🤖📱
 
+<p align="center">
+  <img src="./openclaw-android.png" alt="OpenClaw Android Banner" width="40%">
+</p>
+
+
 A collection of specialized scripts to install and manage **OpenClaw** on Android devices using **Termux**.
 
-OpenClaw usually targets server environments, but these scripts bridge the gap for mobile hardware by fixing hardcoded paths, handling non-root service management, and applying Node-GYP workarounds for the Android NDK.
+OpenClaw usually targets server environments, but these scripts bridge the gap for mobile hardware by fixing hardcoded paths, handling non-root service management, and applying NodeJS workarounds for the Android NDK.
 
 ## 🎥 Video Tutorial
 
