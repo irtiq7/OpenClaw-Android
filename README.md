@@ -3,6 +3,9 @@
 <p align="center">
   <img src="./openclaw-android.png" alt="OpenClaw Android Banner" width="40%">
 </p>
+<p align="center">
+  <img src="./openclaw-android.gif" alt="OpenClaw Android Banner" width="40%">
+</p>
 
 ## Summary
 
