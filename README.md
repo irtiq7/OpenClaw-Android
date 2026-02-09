@@ -1,11 +1,7 @@
 # OpenClaw Android Setup 🤖📱
 
-<p align="center">
-  <img src="./openclaw-android.png" alt="OpenClaw Android Banner" width="40%">
-</p>
-<p align="center">
-  <img src="./openclaw-android.gif" alt="OpenClaw Android Banner" width="40%">
-</p>
+
+<p align="center"> <img src="./openclaw-android.png" alt="Image 1" width="40%"> <img src="./openclaw-android.gif" alt="Image 2" width="40%"> </p>
 
 ## Summary
 
