@@ -28,6 +28,9 @@ echo -e "${YELLOW}[2/6] Configuring environment paths...${NC}"
 mkdir -p "$PREFIX/tmp"
 mkdir -p "$HOME/tmp"
 
+# Ensure that ~/.bashrc exists before attempting sed
+touch ~/.bashrc
+
 # Clean up old/duplicate entries in .bashrc
 sed -i '/export TMPDIR=/d' ~/.bashrc
 sed -i '/export TMP=/d' ~/.bashrc
@@ -96,6 +99,22 @@ chmod +x "$SERVICE_DIR/run"
 chmod +x "$SERVICE_DIR/log/run"
 
 # Enable the service (but don't start yet)
+# Termux services sometimes don't export SVDIR until a new shell.
+# Make it explicit for this session and future shells.
+sed -i '/export SVDIR=/d' ~/.bashrc
+echo 'export SVDIR="$PREFIX/var/service"' >> ~/.bashrc
+export SVDIR="$PREFIX/var/service"
+
+# Ensure runit is actually supervising $SVDIR (termux-services can be flaky right after install)
+service-daemon stop >/dev/null 2>&1 || true
+service-daemon start >/dev/null 2>&1 || true
+
+# Wait briefly for supervise/ok to exist so sv doesn't error out
+for i in 1 2 3 4 5; do
+  [ -e "$PREFIX/var/service/openclaw/supervise/ok" ] && break
+  sleep 1
+done
+
 sv-enable openclaw
 
 # --- FINAL INSTRUCTIONS ---
