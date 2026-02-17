@@ -29,7 +29,7 @@ OpenClaw usually targets server environments, but these scripts bridge the gap f
 
 ## 🎥 Video Tutorial
 
-For a detailed walkthrough, check out our [[YouTube video](https://youtube.com/shorts/pWS5Mzb0YS0)]
+For a detailed walkthrough, check out our [[YouTube video](https://www.youtube.com/@ZeroOneEta)] [[TikToK](https://www.tiktok.com/@zero.one.eta)]
 
 ## 📋 Prerequisites
 
