@@ -6,6 +6,9 @@
 <p align="center"> <img src="./openclaw-android.png" alt="Image 1" width="40%"> <img src="./openclaw-android.gif" alt="Image 2" width="40%"> </p>
 
 <a href="https://www.producthunt.com/products/github-271?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-openclaw-droid" target="_blank" rel="noopener noreferrer"><img alt="OpenClaw Droid - OpenClaw on your Android smartphone | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1076727&amp;theme=light&amp;t=1770676876863"></a>
+<a href="https://www.buymeacoffee.com/irtiq7">
+<img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=irtiq7&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
+</a>
 
 ## Summary
 
